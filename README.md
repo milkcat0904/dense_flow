@@ -7,12 +7,18 @@ to install on ubuntu ```apt-get install libzip-dev``` on mac ```brew install lib
 #### For OpenCV 3 Users
 Please see the [opencv-3.1](https://github.com/yjxiong/dense_flow/tree/opencv-3.1) branch. Many thanks to @victorhcm for the contributions!
 
-### Install
-```
-git clone --recursive http://github.com/yjxiong/dense_flow
-mkdir build && cd build
-cmake .. && make -j
-```
+安装 Install
+=
+
+    ```
+    $ git clone --recursive http://github.com/yjxiong/dense_flow
+    
+    #### 在下载包的目录下执行cmd:
+    $ mkdir build 
+    $ cd build
+    $ cmake .. 
+    $ make -j
+    ```
 
 ### Usage
 ```
