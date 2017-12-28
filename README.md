@@ -20,8 +20,10 @@ Please see the [opencv-3.1](https://github.com/yjxiong/dense_flow/tree/opencv-3.
     
         $ cd build
     
-        $ cmake .. 
-    
+        $ cmake .. 
+        
+#### 2.修改```build```文件夹中的```CMakeCache.txt```文件,将参数置为```OFF```（当执行make -j出现Error:cannot find -lopencv dep_cudart时）
+![image](https://github.com/milkcat0904/dense_flow/raw/master/pic/参数.png)
         $ make -j
 
 
