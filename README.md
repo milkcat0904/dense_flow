@@ -42,7 +42,7 @@ C.使用
 D.Warp Flow
 =
 
-    The warp optical flow is used in the following paper
+    The warp optical flow is used in the tsn model
 
 
     To extract warp flow, use the command
